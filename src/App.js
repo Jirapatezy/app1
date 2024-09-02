@@ -1,12 +1,8 @@
 import React from 'react'
-import Calendar from './class-components'
-import { Header,Content,Footer } from './func-components'
-
+import RefsFunc from './refs-func'
+import MessageBox from './state-func'
 export default function App(){
-  return(
-    [<Header />,<Content />,<Footer />]
-    )
-
+  return <MessageBox/>
   }
   
 
